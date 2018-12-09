@@ -1,0 +1,13 @@
+package cn.jxau.zw;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+
+@SpringBootApplication
+@EnableZuulProxy
+public class MyZuulApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(MyZuulApplication.class);
+    }
+}
